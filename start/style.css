@@ -1,0 +1,19 @@
+:root{
+    --bcg-body:  #011212;
+    --bcg-ball: #ff8800;
+    --width-ball:100px;
+    --height-ball: 100px;
+    --br-ball:50px;
+}
+
+
+body {
+    background-color: var(--bcg-body);
+}
+
+.ball {
+    width: var(--height-ball);
+    height: var(--width-ball);
+    background-color: var(--bcg-ball);
+    border-radius: var(--br-ball);
+}
